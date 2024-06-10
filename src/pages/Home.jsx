@@ -27,7 +27,7 @@ return (
    mostrarResultado === false ? (
     <CardContainer>
       <IconContainer>
-        <img src="IconStarImg" alt="icone de estrela" />
+        <img src={IconStarImg} alt="icone de estrela" />
       
       </IconContainer>
       <h1>Como foi o atendimento?</h1>
@@ -46,7 +46,7 @@ return (
     </CardContainer>
    ) : (
     <CardContainer>
-        <img src="{thankYouImg}" alt="imagem de agradeciemetno" />
+        <img src={thankYouImg} alt="imagem de agradeciemetno" />
 
         <ResultContainer>
           <p>

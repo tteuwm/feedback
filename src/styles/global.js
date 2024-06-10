@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        font-size: 1.6rem:
+        font-size: 1.6rem;
         background: ${props => props.theme.homeBackground}; 
 
         height: 100svh;
